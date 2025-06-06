@@ -297,10 +297,15 @@
     }
      .card-icons{
         height: 17px !important; 
-        gap: 7px !important;
+        gap: 7px;
     }
-    .card-icons img{
-        height: 17px !important;
+    .like2-button img{
+        height: 17px;
+        width: 17px;
+    }
+    .cart2-button img{
+        height: 17px;
+        width: 17px;
     }
     .btnv{
         width:360px;
