@@ -296,11 +296,11 @@
         font-size: 14px;
     }
      .card-icons{
-        height: 17px;
-        gap: 7px;
+        height: 17px !important; 
+        gap: 7px !important;
     }
     .card-icons img{
-        height: 17px;
+        height: 17px !important;
     }
     .btnv{
         width:360px;
