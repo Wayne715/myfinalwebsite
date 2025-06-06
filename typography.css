@@ -1,0 +1,330 @@
+.search-bar input{
+    font-size: 16px;
+    font-weight: 500;
+}
+.AGS{                        /* Australia gaming store */
+    font-size: 14px;
+    font-weight: 500;
+}
+.btnc{                      /* Button for nav bar categories */
+    font-size: 14px;
+    font-weight: 600;
+}
+.banner-text h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.banner-text p{
+    font-size: 16px;
+}
+
+.banner-text2 h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.banner-text2 p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.btns{
+    overflow: hidden;
+    font-weight:600;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.section-title{
+    font-weight: 600; 
+    font-size: 24px;
+}
+.product-title{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.stock{
+    font-size: 13px;
+}
+.pre-order{
+    font-size: 13px;
+}
+.price{
+    font-size: 20px;
+    font-weight: 600;
+}
+.btnv {           
+    font-size: 16px;                                    
+    text-decoration: none;
+    font-weight: 600;
+}
+.visit-us h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.located{
+    font-size: 20px;
+    font-weight: 600;
+}
+.pickup-times{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right; 
+}
+.Platform{
+    font-size: 20px;
+    font-weight: 600;
+}
+.Review-stars{
+    font-size: 16px;
+    font-weight: 400;
+}
+.why-us h3{
+    text-align: center;
+}
+.footerup-inner h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footerup-inner p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.email-subscription input{
+    font-size: 16px;
+}
+.email-subscription input.error::placeholder {
+      font-style: italic;
+      opacity: 1;
+}
+.FAQ h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.FAQ p{
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Below are the css for search result page */
+.status h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.summary h2{
+    font-size: 24px;
+    font-weight: 600;;
+}
+.summary h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn-classification span{
+    font-family: 'Source Serif 4', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pagebar span{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.pagebar p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Below is for cart page */
+.section-title2{
+    font-weight: 600; 
+    font-size: 24px;
+}
+.cart-details th, .cart-details td {
+    text-align: left;
+}
+.cart-details th{
+    font-size: 24px;
+    font-weight: 600;
+}
+.cart-details td{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.action-btn{
+    font-family: 'Source Serif 4', serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.price-label{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.price-number{
+    font-size: 24px;
+    font-weight: 600;
+}
+.checkout-btn{
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Below is for confirmation page */
+.confirmation h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.confirmation-message{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.Order-detail h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.Order-detail p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.label{
+    font-weight: 600;
+}
+.btni{
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Below is for product page */
+.p-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tag-box span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.l-label{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+}
+.l-price{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1;
+}
+.l-label2{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+}
+.quantity-display p{
+    font-size: 14px;
+    font-weight: 600;
+}
+/*below is button*/
+.add-to{
+    text-decoration: none;
+}
+.add-to span{
+    font-family: 'Source Serif 4', serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.aside-info h2{                 /*below is reason section*/
+    font-weight: 600; 
+    font-size: 24px;
+}
+.reason-box p{
+    font-size: 16px;
+    font-weight: 600;
+}
+/* Below is for section 2: Shipping */
+.shipping-info{
+    font-size: 16px;
+    font-weight: 600;
+}
+.description-info-box{
+    text-align: left;
+}
+.highlight{
+    font-weight: 600;
+}
+
+.review-input{
+    line-height: 1;
+}
+.review-button{
+    font-family: 'Source Serif 4', serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Below is for checkout page */
+.boxstyle1 h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+}
+.boxstyle1 h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.boxstyle1 input::placeholder{
+    font-family: 'Source Serif 4', serif;
+}
+
+input.error::placeholder {                   /* Placeholder for error state */
+    opacity: 1;
+}
+
+.pay-button{
+    font-family: 'Source Serif 4', serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.order-summary-title{
+    line-height: 1;
+    font-size: 24px;
+    font-weight: 600;
+}
+.product-nm{
+    font-size: 16px;
+    font-weight: 600;
+}
+.product-price{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.discount-code button{
+    font-family: 'Source Serif 4', serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.discount-code input::placeholder{
+    font-family: 'Source Serif 4', serif;
+}
+.summary-label{
+    font-size: 16px;
+    font-weight: 700;
+}
+.summary-value{
+    font-size: 16px;
+    font-weight: 600;
+}
+.summary-label2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.summary-value2{
+    font-size: 20px;
+    font-weight: 600;
+}

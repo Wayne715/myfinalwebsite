@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GD Games Checkout Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+    <!-- Fixed logo and search bar -->
+    <div class="Heading">
+        <div class="heading-inner">
+             <a href="index.html" class="home-button">
+                 <img src="website-pic/GDG.png" alt="GD Games Logo">
+             </a>
+             <div class="search-bar">
+                 <input type="text" id="searchInput" placeholder="Search for Products...">
+                 <button type="submit" id="searchBtn">
+                    <img src="website-icons/search.png" alt="Search">
+                </button>
+             </div>
+             <div class="h-icons">
+                 <a href="#" class="like1-button">
+                     <img src="website-icons/favorite.png" alt="Like list">
+                 </a>
+                 <a href="#" class="log-button">
+                     <img src="website-icons/log.png" alt="log in">
+                 </a>
+                 <a href="cart.html" class="cart1-button">
+                     <img src="website-icons/cart.png" alt="Shopping cart">
+                 </a>
+             </div>
+        </div>
+    </div>
+    <!-- Fixed navigation bar -->
+    <div class="navbar">
+        <div class="navbar-inner">
+             <div class="btn-group">
+                 <a href="#" class="btnc">Nintendo Switch</a>
+                 <a href="#" class="btnc">PlayStation</a>
+                 <a href="#" class="btnc">Xbox</a>
+                 <a href="#" class="btnc">Pokemon</a>
+                 <a href="#" class="btnc">Yugioh</a>
+             </div>
+             <h2 class="AGS">Australia's Gaming Store</h2>
+             <div class="search-bar2">
+                 <input type="text" id="searchInput2" placeholder="Search for Products...">
+                 <button type="submit" id="searchBtn2">
+                    <img src="website-icons/search.png" alt="Search">
+                </button>
+             </div>
+             <button class="burger-button">
+                 <img src="website-icons/burger.png" alt="menu" id="burgerBtn">
+             </button>
+        </div>
+    </div>
+    <div class="burger-menu" id="burgerMenu">
+        <div class="bmbox">
+            <a href="#" class="btnc">Nintendo Switch Games</a>
+        </div>
+        <div class="bmbox">
+            <a href="#" class="btnc">PlayStation Games</a>
+        </div>
+        <div class="bmbox">
+            <a href="#" class="btnc">Xbox Games</a>
+        </div>
+        <div class="bmbox">
+            <a href="#" class="btnc">Pokemon</a>
+        </div>
+        <div class="bmbox">
+            <a href="#" class="btnc">Yugioh</a>
+        </div>
+    </div>
+    </header>
+    <main>
+    <section class="status">
+            <h2>Home /Shopping Cart / Check Out</h2>
+    </section>
+    <div class="checkout-container">
+        <div class="checkout-column1">
+            <section class="boxstyle1">
+                <h2>Express Checkout</h2>
+                <div class="express-options">
+                    <div class="option-box">
+                        <img src="website-pic/shoppay.png" alt="Shop Pay" class="options-button">
+                    </div>
+                    <div class="option-box">
+                        <img src="website-pic/paypalpay.png" alt="PayPal" class="options-button">
+                    </div>
+                    <div class="option-box">
+                        <img src="website-pic/googlepay.png" alt="Google Pay" class="options-button">
+                    </div>
+                </div>
+            </section>
+            <section class="boxstyle1">
+                <h2>Shipping Address</h2>
+                <input type="text" id="country" data-type="country" data-placeholder="Country/Region" placeholder="Country/Region">
+                <div class="twoin-line">
+                    <input type="text" id="firstName" data-type="name" data-placeholder="First Name" placeholder="First Name">
+                    <input type="text" id="lastName" data-type="name" data-placeholder="Last Name" placeholder="Last Name">
+                </div>
+                <input type="text" placeholder="Company (optional)">
+                <input type="text" id="address" data-type="address" data-placeholder="Address" placeholder="Address">
+                <input type="text" placeholder="Building, suit,  etc. (optional)">
+                <div class="threein-line">
+                    <input type="text" id="city" data-type="city" data-placeholder="City" placeholder="City">
+                    <input type="text" id="state" data-type="state" data-placeholder="State" placeholder="State">
+                    <input type="text" id="postcode" data-type="postcode" data-placeholder="Postcode" placeholder="Postcode">
+                </div>
+            </section>
+            <section class="boxstyle1">
+                <h2>Shipping Methods</h2>
+                <div class="shipping-container">
+                    <img src="website-icons/checked2.png" class="checked2" alt="Checked Icon">
+                    <h3>Shipping</h3>
+                </div>
+                <div class="shipping-container">
+                    <img src="website-icons/unchecked2.png" class="unchecked2" alt="Unchecked Icon">
+                    <h3>Pickup</h3>
+                </div>
+            </section>
+            <section class="boxstyle1">
+                <h2>Payment Methods</h2>
+                <div class="shipping-container">                      <!-- Payment Choice1-->
+                        <img src="website-icons/checked2.png" class="checked2" alt="Checked Icon">
+                        <h3>Credit Card</h3>
+                </div>
+                <input type="text" id="cardNumber" data-type="card" data-placeholder="Card Number" placeholder="Card Number(16 digits)">
+                <div class="twoin-line">
+                    <input type="text" id="expirationDate" data-type="expiry" data-placeholder="Expiration Date (MM/YY)" placeholder="Expiration Date (MM/YY)">
+                    <input type="password" id="cvv" data-type="cvv" data-placeholder="CVV" placeholder="CVV">
+                </div>
+                <input type="text" id="nameOnCard" data-type="name" data-placeholder="Name On Card" placeholder="Name On Card">
+                <div class="notice">
+                        <img src="website-icons/checkbox.png" class="checkedbox" alt="Checkbox Icon">
+                        <p>Use shipping address as billing address</p>
+                </div>
+                <div class="shipping-container">                          <!-- Payment Choice2-->
+                        <img src="website-icons/unchecked2.png" class="unchecked2" alt="Unchecked Icon">
+                        <h3>PayPal</h3>
+                </div>
+                <div class="shipping-container">                         <!-- Payment Choice3-->
+                        <img src="website-icons/unchecked2.png" class="unchecked2" alt="Unchecked Icon">
+                        <h3>After Pay</h3>
+                </div>
+            </section>
+        </div>
+        <div class="checkout-column2">
+            <section class="Order-Summary">
+                <div class="title-borderbox">
+                    <h2 class="order-summary-title">Order Summary</h2>
+                </div>
+                <div class="product-boughtlist">
+                    <div class="product-bought">             <!-- img-box=image-box use this box to control and cut the size of img-->
+                        <img src="website-pic/Mario-Ode.png" alt="Product Image">
+                    </div>
+                    <p class="product-nm">Super Mario Odyssey</p>
+                    <p class="product-price">$69.00 AUD</p>
+                </div>
+                <div class="product-boughtlist">
+                    <div class="product-bought">
+                        <img src="website-pic/LUNAR Remastered Collection .png" alt="Product Image">
+                    </div>
+                    <p class="product-nm">LUNAR Remastered Collection</p>
+                    <p class="product-price">$99.95 AUD</p>
+                </div>
+                <div class="discount-code">              <!-- discount-code input -->
+                    <input type="text" placeholder="Enter Discount Code">
+                    <button type="submit">Apply</button>
+                </div>
+                <div class="summary1">                     <!-- summary1=summary use this box to control the style of subtotal and shipping -->
+                    <p class="summary-label">Subtotal:</p>
+                    <p class="summary-value">$168.95 AUD</p>
+                </div>
+                <div class="summary1">                     <!-- summary1=summary use this box to control the style of subtotal and shipping -->
+                    <p class="summary-label">Shipping:</p>
+                    <p class="summary-value">$00.00 AUD</p>
+                </div>
+                <div class="summary2">                     <!-- summary2=summary use this box to control the style of order total -->
+                    <p class="summary-label2">Order Total:</p>
+                    <p class="summary-value2">$168.95 AUD</p>
+                </div>
+            </section>
+            <section class="boxstyle1">
+                <h2>Contact Information</h2>
+                <input type="text" placeholder="Email or mobile number">
+                <div class="notice">
+                        <img src="website-icons/checkbox.png" class="checkedbox" alt="Checkbox Icon">
+                        <p>Email/Text me with news and offers</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section class="confirm-pay">
+        <button class="pay-button" id="confirmPayBtn">Confirm & Pay</button>
+    </section>
+    </main>
+    <footer>
+        <!-- Footer Section: Sign members -->
+        <section class="footerup">
+            <div class="footerup-inner">
+                 <h2>Become A Member Of GD Games</h2>
+                 <p>We will keep you up-to-date with the latest news.</p>
+                 <div class="email-subscription">
+                     <input type="email" id="emailInput" placeholder="Enter your email address">
+                     <button type="submit" id="subscribeBtn">Subscribe</button>
+                 </div>
+            </div>
+        </section>
+        <!-- Footer Section: Information -->
+        <section class="footerdown">
+            <!-- 4 columns of information(grid layout) -->
+            <div class="footerdown-inner">
+                 <div class="FAQ">
+                    <h2>Got a Question?</h2>
+                    <p>Call Us</p>
+                    <p>0429783792</p>
+                    <p>Mon-Sat 9am-6pm AEST</p>
+                 </div>
+                 <div class="FAQ">
+                    <h2>Learn</h2>
+                    <p>About us</p>
+                    <p>Contact Us</p>
+                    <p>Store Location</p>
+                    <p>Site Map</p>
+                 </div>
+                 <div class="FAQ">
+                    <h2>Service</h2>
+                    <p>Delivery</p>
+                    <p>Return</p>
+                    <p>Refund Policy</p>
+                    <p>Terms of Service</p>
+                    <p>Local Pick Up</p>
+                 </div>
+                 <div class="FAQ">
+                    <h2>We Accept</h2>
+                    <img src="website-pic/paymentmethod.png" alt="payment-methods">
+                 </div>
+            </div>
+        </section>       
+    </footer>
+</body>
+</html>

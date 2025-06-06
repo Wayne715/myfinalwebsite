@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GD Games Cart Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+    <!-- Fixed logo and search bar -->
+    <div class="Heading">
+        <div class="heading-inner">
+             <a href="index.html" class="home-button">
+                 <img src="website-pic/GDG.png" alt="GD Games Logo">
+             </a>
+             <div class="search-bar">
+                 <input type="text" id="searchInput" placeholder="Search for Products...">
+                 <button type="submit" id="searchBtn">
+                    <img src="website-icons/search.png" alt="Search">
+                </button>
+             </div>
+             <div class="h-icons">
+                 <a href="#" class="like1-button">
+                     <img src="website-icons/favorite.png" alt="Like list">
+                 </a>
+                 <a href="#" class="log-button">
+                     <img src="website-icons/log.png" alt="log in">
+                 </a>
+                 <a href="cart.html" class="cart1-button">
+                     <img src="website-icons/cart.png" alt="Shopping cart">
+                 </a>
+             </div>
+        </div>
+    </div>
+    <!-- Fixed navigation bar -->
+    <div class="navbar">
+        <div class="navbar-inner">
+             <div class="btn-group">
+                 <a href="#" class="btnc">Nintendo Switch</a>
+                 <a href="#" class="btnc">PlayStation</a>
+                 <a href="#" class="btnc">Xbox</a>
+                 <a href="#" class="btnc">Pokemon</a>
+                 <a href="#" class="btnc">Yugioh</a>
+             </div>
+             <h2 class="AGS">Australia's Gaming Store</h2>
+             <div class="search-bar2">
+                 <input type="text" id="searchInput2" placeholder="Search for Products...">
+                 <button type="submit" id="searchBtn2">
+                    <img src="website-icons/search.png" alt="Search">
+                </button>
+             </div>
+             <button class="burger-button">
+                 <img src="website-icons/burger.png" alt="menu" id="burgerBtn">
+             </button>
+        </div>
+    </div>
+    <div class="burger-menu" id="burgerMenu">
+        <div class="bmbox">
+            <a href="#" class="btnc">Nintendo Switch Games</a>
+        </div>
+        <div class="bmbox">
+            <a href="#" class="btnc">PlayStation Games</a>
+        </div>
+        <div class="bmbox">
+            <a href="#" class="btnc">Xbox Games</a>
+        </div>
+        <div class="bmbox">
+            <a href="#" class="btnc">Pokemon</a>
+        </div>
+        <div class="bmbox">
+            <a href="#" class="btnc">Yugioh</a>
+        </div>
+    </div>
+    </header>
+    <main>
+        <!-- Status of website -->   
+        <section class="status">
+            <h2>Home / Shopping Cart</h2>
+        </section>
+
+        <!-- Shopping Cart Section -->
+        <section class="Cart">
+            <h2 class="section-title2">Your Cart (2)</h2>
+            <div class="cart-detailbox">
+            <table class="cart-details">                    <!-- a table to show cart details -->
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Product</th>
+                        <th>Description</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="website-icons/checked.png" class="checked" alt="Checked Icon" id="Radioicon">
+                        </td>
+                        <td>
+                            <div class="product-bought">
+                                <img src="website-pic/Mario-Ode.png" alt="Super Mario Odyssey">          
+                            </div>
+                        </td>
+                        <td>Super Mario Odyssey</td>
+                        <td>
+                            <div class="quantity">
+                                <button class="quantity-button">
+                                    <img src="website-icons/minus.png" alt="Decrease Quantity">
+                                </button>
+                                <span class="quantity-number">1</span>
+                                <button class="quantity-button">
+                                    <img src="website-icons/add.png" alt="Increase Quantity">
+                                </button>
+                            </div>
+                        </td>
+                        <td>$69.00 AUD</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="Radioicon"src="website-icons/checked.png" class="checked">
+                        </td>
+                        <td>
+                            <div class="product-bought">
+                                <img src="website-pic/LUNAR Remastered Collection .png" alt="LUNAR Remastered Collection">          
+                            </div>
+                        </td>
+                        <td>LUNAR Remastered Collection</td>
+                        <td>
+                            <div class="quantity">
+                                <button class="quantity-button">
+                                    <img src="website-icons/minus.png" alt="Decrease Quantity">
+                                </button>
+                                <span class="quantity-number">1</span>
+                                <button class="quantity-button">
+                                    <img src="website-icons/add.png" alt="Increase Quantity">
+                                </button>
+                            </div>
+                        </td>
+                        <td>$99.95 AUD</td>
+                    </tr>                   
+                </tbody>
+            </table>
+            <!-- 2 button as a group for cart actions -->
+            <div class="cart-actions">
+                <button class="action-btn">Continue Shopping</button>
+                <button class="action-btn">Clear Cart</button>
+            </div>
+            <!-- Shows the total price -->
+            <div class="price-total">
+                <p class="price-label">Subtotal:</p>
+                <p class="price-number">$168.95 AUD</p>
+            </div>
+            <!-- Checkout button -->
+            <a href="checkout.html" class="checkout-btn">Proceed to Checkout</a>
+            </div>
+        </section>
+
+        <!-- People Also Bought Section -->
+        <section class="People-AlsoBought">
+            <h2 class="section-title">People Also Bought</h2>
+            <!-- Featured Product list(grid layout) -->
+            <div class="product-grid">
+                <!-- Product Card 1 -->
+                <div class="product-card">                                                             
+                     <img src="website-pic/LUNAR Remastered Collection .png" alt="product-img" class="product-img">
+                     <a href="#" class="product-title">LUNAR Remastered Collection</a>
+                     <p class="stock">In Stock</p>
+                     <div class="bottom-section">
+                         <p class="price">$99.95 AUD</p>
+                         <div class="card-icons">
+                             <a href="#" class="like2-button">
+                                <img src="website-icons/favorite2.png" alt="addlike">
+                             </a>
+                             <a href="#" class="cart2-button">
+                                <img src="website-icons/cart2.png" alt="addcart">
+                             </a>
+                         </div>
+                     </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="product-card">                                                           
+                     <img src="website-pic/VVC.png" alt="product-img" class="product-img">
+                     <a href="#" class="product-title">Venus Vacation PRISM - DEAD OR ALIVE Xtreme</a>
+                     <p class="pre-order">Pre-Order</p>
+                     <div class="bottom-section">
+                         <p class="price">$119.95 AUD</p>
+                         <div class="card-icons">
+                             <a href="#" class="like2-button">
+                                <img src="website-icons/favorite2.png" alt="addlike">
+                             </a>
+                             <a href="#" class="cart2-button">
+                                <img src="website-icons/cart2.png" alt="addcart">
+                             </a>
+                         </div>
+                     </div>
+                </div>           
+                <!-- Product Card 3 -->
+                <div class="product-card">                                                             
+                     <img src="website-pic/Cuphead.png" alt="product-img" class="product-img">
+                     <a href="#" class="product-title">Cuphead</a>
+                     <p class="stock">In Stock</p>
+                     <div class="bottom-section">
+                         <p class="price">$54.95 AUD</p>
+                         <div class="card-icons">
+                             <a href="#" class="like2-button">
+                                <img src="website-icons/favorite2.png" alt="addlike">
+                             </a>
+                             <a href="#" class="cart2-button">
+                                <img src="website-icons/cart2.png" alt="addcart">
+                            </a>
+                         </div>
+                     </div>
+                </div>
+                <!-- Product Card 4 -->
+                <div class="product-card">                                                             
+                     <img src="website-pic/Heat Wave Arena Booster Box.png" alt="product-img" class="product-img">
+                     <a href="#" class="product-title">Heat Wave Arena Booster Box</a>
+                     <p class="stock">In Stock</p>
+                     <div class="bottom-section">
+                         <p class="price">$169.95 AUD</p>
+                         <div class="card-icons">
+                             <a href="#" class="like2-button">
+                                <img src="website-icons/favorite2.png" alt="addlike">
+                             </a>
+                             <a href="#" class="cart2-button">
+                                <img src="website-icons/cart2.png" alt="addcart">
+                              </a>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </section>       
+    </main>
+</body>
+ <footer>
+        <!-- Footer Section: Sign members -->
+        <section class="footerup">
+            <div class="footerup-inner">
+                 <h2>Become A Member Of GD Games</h2>
+                 <p>We will keep you up-to-date with the latest news.</p>
+                 <div class="email-subscription">
+                     <input type="email" id="emailInput" placeholder="Enter your email address">
+                     <button type="submit" id="subscribeBtn">Subscribe</button>
+                 </div>
+            </div>
+        </section>
+        <!-- Footer Section: Information -->
+        <section class="footerdown">
+            <!-- 4 columns of information(grid layout) -->
+            <div class="footerdown-inner">
+                 <div class="FAQ">
+                    <h2>Got a Question?</h2>
+                    <p>Call Us</p>
+                    <p>0429783792</p>
+                    <p>Mon-Sat 9am-6pm AEST</p>
+                 </div>
+                 <div class="FAQ">
+                    <h2>Learn</h2>
+                    <p>About us</p>
+                    <p>Contact Us</p>
+                    <p>Store Location</p>
+                    <p>Site Map</p>
+                 </div>
+                 <div class="FAQ">
+                    <h2>Service</h2>
+                    <p>Delivery</p>
+                    <p>Return</p>
+                    <p>Refund Policy</p>
+                    <p>Terms of Service</p>
+                    <p>Local Pick Up</p>
+                 </div>
+                 <div class="FAQ">
+                    <h2>We Accept</h2>
+                    <img src="website-pic/paymentmethod.png" alt="payment-methods">
+                 </div>
+            </div>
+        </section>       
+    </footer>
+</html>

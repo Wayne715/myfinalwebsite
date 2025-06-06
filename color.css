@@ -1,0 +1,448 @@
+body{
+    background-color: rgb(253, 233, 201);
+}
+.Heading{
+    background-color: rgb(58, 46, 43);
+}
+.heading-inner{
+    background-color: rgb(58, 46, 43);
+}
+.search-bar{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(58, 46, 43);
+    color: rgb(212,212,212);
+}
+.search-bar input{
+    background-color: rgb(58, 46, 43);
+    color: rgb(212,212,212);
+    border: none;
+}
+.search-bar button{
+    border-left: 1px solid rgb(255, 255, 255);
+    background-color: rgb(133, 56, 54);
+    color: white;
+}
+.navbar{
+    background-color: rgb(86, 54, 46);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.navbar-inner{
+    background-color: rgb(86, 54, 46);
+}
+.AGS{                        /* Australia gaming store */
+    color: white;
+}
+.btnc{                      /* Button for nav bar categories */
+    background-color: rgb(86, 54, 46);
+    color: white;
+}
+.banner-main{
+    background-color: rgb(253, 240, 220);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(133, 56, 54);
+}
+.banner-text{
+    color: rgb(255, 255, 255);
+}
+.right-banner1, .right-banner2{
+    background-color: rgb(253, 240, 220);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(133, 56, 54);
+}
+.banner-text2{
+    color: rgb(255, 255, 255);
+}
+.btns{
+    border: 1px solid rgb(133, 56, 54);
+    background-color: rgb(133, 56, 54);
+    color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.section-title{
+    background-color: rgb(86, 54, 46);
+    color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.product-card{
+    background-color: rgb(253, 240, 220);
+    border: 1px solid rgb(133, 56, 54);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.product-img {
+    background-color: black;
+    border-bottom: 1px solid rgb(133, 56, 54);
+}  
+.product-title {
+    color: rgb(22, 36, 68);
+}
+.product-title:hover {
+    color: rgb(46, 246, 249);
+}
+.stock{
+    color: rgb(0, 168, 39);
+}
+.pre-order{
+    color: rgb(254, 0, 0);
+}
+.bottom-section{
+    background-color: rgb(253, 240, 220);
+}
+.price{
+    color: rgb(22, 36, 68);
+}
+.btnv {
+    background-color: rgb(133, 56, 54);        
+    color: white;                
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.visit-us{
+    background-color: rgb(253, 240, 220);
+    color: rgb(22, 36, 68);
+    border: 2px solid rgb(133, 56, 54);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.feedback-card{
+    border: 2px solid rgb(133, 56, 54);
+    background-color: rgb(253, 240, 220);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.Platform{
+    color: rgb(22, 36, 68);
+}
+.Review-stars{
+    color: rgb(22, 36, 68);
+}
+.why-us{
+    background-color: rgb(253, 240, 220);
+    color: rgb(22, 36, 68);
+    border: 2px solid rgb(133, 56, 54);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.footerup{
+    background-color: rgb(86, 54, 46);
+}
+.footerup-inner{
+    background-color: rgb(86, 54, 46);
+    color: white;
+}
+
+.email-subscription{
+    background-color: rgb(253, 240, 220);
+    color: rgb(0, 0, 0);
+}
+.email-subscription input{
+    border: none;
+    background-color: rgb(253, 240, 220);
+    color: rgb(0, 0, 0);
+}
+.email-subscription input.error::placeholder {
+      color:rgb(170, 72, 69);
+}
+.email-subscription button{
+    border: 1px solid rgb(133, 56, 54);
+    background-color: rgb(133, 56, 54);
+    color: white;
+}
+.footerdown{
+    background-color: rgb(75, 75, 75);
+}
+.footerdown-inner{
+    background-color: rgb(75, 75, 75);
+    color: white;
+}
+.FAQ{
+    border-left: 2px solid rgb(255, 255, 255);
+}
+/* Below are the css for search result page */
+.status{
+    border-bottom: 2px solid rgb(133, 56, 54);
+}
+.status h2{
+    color: rgb(133, 56, 54);
+}
+.summary{
+    background-color: rgb(86, 54, 46);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.summary h2{
+    color: rgb(253, 233, 201);
+}
+.summary h3{
+    color: rgb(253, 233, 201);
+}
+.btn-classification{
+    border: none;
+    background-color: rgb(133, 56, 54);
+    color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.pagebar{
+    background-color: rgb(133, 56, 54);
+    color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.pagebtn{
+    background-color: rgb(133, 56, 54);
+    border: none;
+}
+
+/* Below is for cart page */
+.section-title2{
+    background-color: rgb(86, 54, 46);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.cart-detailbox{
+    border: 2px solid rgb(133, 56, 54);
+    background-color: rgb(253, 240, 220);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.cart-details th, .cart-details td {
+    border-bottom: 2px solid rgb(133, 56, 54);
+}
+.cart-details th{
+    color: rgb(133, 56, 54);
+}
+.cart-details td{
+    color: rgb(22, 36, 68);
+}
+
+.product-bought{
+    border: 2px solid rgb(133, 56, 54);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.quantity-button{
+    border: none;
+    background-color: rgb(253, 240, 220);
+}
+
+.action-btn{
+    color: white;
+    background-color: rgb(133, 56, 54);
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.price-total{
+    border-bottom: 2px solid rgb(133, 56, 54);
+}
+
+.price-label{
+    color: rgb(22, 36, 68);
+}
+
+.price-number{
+    color: rgb(22, 36, 68);
+}
+.checkout-btn{
+    background-color: rgb(133, 56, 54);
+    color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+/* Below is for confirmation page */
+.confirmation{
+    border: 2px solid rgb(133, 56, 54);
+    background-color: rgb(253, 240, 220);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.confirmation h2{
+    color: rgb(22, 36, 68);
+}
+.confirmation-message{
+    color: rgb(22, 36, 68);
+}
+.img-boxc{
+    border: 2px solid rgb(133, 56, 54);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.Order-detail{
+    border-left: 2px solid rgb(133, 56, 54);
+}
+.Order-detail h3{
+    color: rgb(22, 36, 68);
+}
+.Order-detail p{
+    color: rgb(22, 36, 68);
+}
+.btni{
+    background-color: rgb(133, 56, 54);
+    color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+/* Below is for product page */
+.image-pics{
+    border: 2px solid rgb(133, 56, 54);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    background-color: rgb(253, 240, 220);
+}
+.cover-image{
+    border: 2px solid rgb(133, 56, 54);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.op-box{
+    border: 2px solid rgb(133, 56, 54);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box-up{
+    border: 2px solid rgb(133, 56, 54);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    background-color: rgb(253, 240, 220);
+    color: rgb(22, 36, 68);
+}
+.p-name{
+    border-bottom: 2px solid rgb(133, 56, 54);
+}
+
+.tag-box{
+    background-color: rgb(22, 36, 68);
+    color: rgb(255, 255, 255);
+}
+.l-label{
+    color: rgb(22, 36, 68);
+}
+.l-price{
+    color: rgb(22, 36, 68);
+}
+.l-label2{
+    color: rgb(22, 36, 68);
+}
+.quantity-display{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(133, 56, 54);
+}
+.quantity-display p{
+    color: rgb(22, 36, 68);
+}
+/*below is button*/
+.add-to{
+    background-color: rgb(133, 56, 54);
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.add-to span{
+    color: white;
+}
+.aside-info h2{                 /*below is reason section*/
+    background-color: rgb(86, 54, 46);
+    color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.reason-box{
+    border: 2px solid rgb(133, 56, 54);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    background-color: rgb(253, 240, 220);
+}
+.reason-box p{
+    color: rgb(22, 36, 68);
+}
+/* Below is for section 2: Shipping */
+.shipping-info-box {
+    border: 2px solid rgb(133, 56, 54);
+    background-color: rgb(253, 240, 220);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    color: rgb(22, 36, 68);
+}
+.description-info-box{
+    border: 2px solid rgb(133, 56, 54);
+    background-color: rgb(253, 240, 220);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.review-box{
+    border: 2px solid rgb(133, 56, 54);
+    background-color: rgb(253, 240, 220);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.review-input{
+    color: rgb(75, 75, 75);
+}
+.review-button{
+    background-color: rgb(133, 56, 54);
+    color: white;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Below is for checkout page */
+.boxstyle1{
+    background-color: rgb(86, 54, 46);
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.boxstyle1 h2{
+    color: rgb(253, 233, 201);
+}
+.boxstyle1 h3{
+    color: rgb(253, 233, 201);
+}
+.boxstyle1 input{
+    border: 2px solid rgb(133, 56, 54);
+    background-color: rgb(253, 240, 220);
+    color: rgb(22, 36, 68);
+}
+
+input.error::placeholder {                   /* Placeholder for error state */
+    color: rgb(193, 57, 52);
+}
+
+.option-box{
+    border: 2px solid rgb(133, 56, 54);
+}
+.notice p{
+    color: rgb(253, 233, 201);
+}
+.pay-button{
+    border: none;
+    background-color: rgb(133, 56, 54);
+    color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.Order-Summary{
+    background-color: rgb(253, 240, 220);
+    border: 2px solid rgb(133, 56, 54);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.title-borderbox{
+    border-bottom: 2px solid rgb(133, 56, 54);
+}
+.order-summary-title{
+    color: rgb(133, 56, 54);
+}
+.product-boughtlist{
+    border-bottom: 2px solid rgb(133, 56, 54);
+}
+.product-nm{
+    color: rgb(22, 36, 68);
+}
+.product-price{
+    color: rgb(22, 36, 68);
+}
+
+.discount-code input{
+    border: 2px solid rgb(133, 56, 54);;
+    background-color: rgb(255, 255, 255);
+    color: rgb(22, 36, 68);
+}
+.discount-code button{
+    border: none;
+    background-color: rgb(133, 56, 54);
+    color: white;
+}
+.summary-label{
+    color: rgb(22, 36, 68);
+}
+.summary-value{
+    color: rgb(22, 36, 68);
+}
+.summary-label2{
+    color: rgb(22, 36, 68);
+}
+.summary-value2{
+    color: rgb(22, 36, 68);
+}

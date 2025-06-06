@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GD Games Confirmation Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+    <!-- Fixed logo and search bar -->
+    <div class="Heading">
+        <div class="heading-inner">
+             <a href="index.html" class="home-button">
+                 <img src="website-pic/GDG.png" alt="GD Games Logo">
+             </a>
+             <div class="search-bar">
+                 <input type="text" id="searchInput" placeholder="Search for Products...">
+                 <button type="submit" id="searchBtn">
+                    <img src="website-icons/search.png" alt="Search">
+                </button>
+             </div>
+             <div class="h-icons">
+                 <a href="#" class="like1-button">
+                     <img src="website-icons/favorite.png" alt="Like list">
+                 </a>
+                 <a href="#" class="log-button">
+                     <img src="website-icons/log.png" alt="log in">
+                 </a>
+                 <a href="cart.html" class="cart1-button">
+                     <img src="website-icons/cart.png" alt="Shopping cart">
+                 </a>
+             </div>
+        </div>
+    </div>
+    <!-- Fixed navigation bar -->
+    <div class="navbar">
+        <div class="navbar-inner">
+             <div class="btn-group">
+                 <a href="#" class="btnc">Nintendo Switch</a>
+                 <a href="#" class="btnc">PlayStation</a>
+                 <a href="#" class="btnc">Xbox</a>
+                 <a href="#" class="btnc">Pokemon</a>
+                 <a href="#" class="btnc">Yugioh</a>
+             </div>
+             <h2 class="AGS">Australia's Gaming Store</h2>
+             <div class="search-bar2">
+                 <input type="text" id="searchInput2" placeholder="Search for Products...">
+                 <button type="submit" id="searchBtn2">
+                    <img src="website-icons/search.png" alt="Search">
+                </button>
+             </div>
+             <a href="#" class="burger-button">
+                 <img src="website-icons/burger.png" alt="menu">
+             </a>
+        </div>
+    </div>
+    </header>
+    <main>
+    <section class="confirmation">
+        <img src="website-icons/Confirmation.png" alt="Confirmation Icon" class="confirmation-icon">
+        <h2>Purchase Confirmed</h2>
+        <p class="confirmation-message">
+            Thank You For Your Purchase!<br>
+            Your Order Number Is:<br> 
+            123456789<br>
+        </p>
+        <div class="product-bought2">
+            <div class="img-boxc">                       <!-- img-boxc=image-box-confirmation use this box to control and cut the size of img-->
+                <img src="website-pic/Mario-Ode.png" alt="Product Image" class="productB-image">
+            </div>
+            <div class="img-boxc">
+                <img src="website-pic/LUNAR Remastered Collection .png" alt="Product Image" class="productB-image">
+            </div>
+        </div>
+        <div class="confirmation-details">               <!-- set a grid layout for details -->
+            <div class="Order-detail">                   <!-- set a box in grid to contain details -->
+                <h3>Order Details</h3>                   
+                <p>
+                    <span class="label">Payment Amount:</span> <span class="value">$168.95 AUD</span><br>
+                    <span class="label">Submission Time:</span> <span class="value">18:20 2025-1-1</span><br>
+                    <span class="label">Payment Method:</span> <span class="value">Master Card</span><br>
+                    <span class="label">Order Number:</span> <span class="value">123456789</span>
+                </p>
+            </div>
+            <div class="Order-detail">
+                <h3>Shipping Details</h3>
+                <p>
+                    <span class="label">Name:</span> <span class="value">Xxx Xxxx</span><br>
+                    <span class="label">Email:</span> <span class="value">xxx.xxxx@gmail.com</span><br>
+                    <span class="label">Phone:</span> <span class="value">+61 123 456 789</span><br>
+                    <span class="label">Address:</span> <span class="value">123 Main St, Sydney, NSW</span>            
+                </p>
+            </div>
+        </div>
+        <a href="index.html" class="btni">Continue Shopping</a>           <!-- button back to index page for shopping -->
+    </section>
+    </main>
+    <footer>
+        <!-- Footer Section: Sign members -->
+        <section class="footerup">
+            <div class="footerup-inner">
+                 <h2>Become A Member Of GD Games</h2>
+                 <p>We will keep you up-to-date with the latest news.</p>
+                 <div class="email-subscription">
+                     <input type="email" id="emailInput" placeholder="Enter your email address">
+                     <button type="submit" id="subscribeBtn">Subscribe</button>
+                 </div>
+            </div>
+        </section>
+        <!-- Footer Section: Information -->
+        <section class="footerdown">
+            <!-- 4 columns of information(grid layout) -->
+            <div class="footerdown-inner">
+                 <div class="FAQ">
+                    <h2>Got a Question?</h2>
+                    <p>Call Us</p>
+                    <p>0429783792</p>
+                    <p>Mon-Sat 9am-6pm AEST</p>
+                 </div>
+                 <div class="FAQ">
+                    <h2>Learn</h2>
+                    <p>About us</p>
+                    <p>Contact Us</p>
+                    <p>Store Location</p>
+                    <p>Site Map</p>
+                 </div>
+                 <div class="FAQ">
+                    <h2>Service</h2>
+                    <p>Delivery</p>
+                    <p>Return</p>
+                    <p>Refund Policy</p>
+                    <p>Terms of Service</p>
+                    <p>Local Pick Up</p>
+                 </div>
+                 <div class="FAQ">
+                    <h2>We Accept</h2>
+                    <img src="website-pic/paymentmethod.png" alt="payment-methods">
+                 </div>
+            </div>
+        </section>       
+    </footer>
+</body>
+</html>
